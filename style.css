@@ -1,0 +1,31 @@
+.head{
+    height: 10vh;
+    background-color: rgb(0, 198, 169);
+    display: flex;
+}
+
+/* .logo-section{
+    height: 10vh;
+    width: 10vw;
+    padding: 5px;
+    background-color: white;
+    margin-left: 3vw;
+    align-items: center;
+} */
+
+.logo-section {
+    display: flex;
+    /* background-color: white;
+    margin-left: 3vw; */
+    height: 10vh;
+    width: 10vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    height: 8vh;
+    width: 8vw;
+    object-fit: contain;
+    background-color: white;
+}
