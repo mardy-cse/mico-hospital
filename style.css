@@ -1,31 +1,104 @@
-.head{
-    height: 10vh;
-    background-color: rgb(0, 198, 169);
+.heading-top{
     display: flex;
-}
-
-/* .logo-section{
-    height: 10vh;
-    width: 10vw;
-    padding: 5px;
-    background-color: white;
-    margin-left: 3vw;
     align-items: center;
-} */
+    margin-left: 12vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 
-.logo-section {
+}
+.info{
     display: flex;
-    /* background-color: white;
-    margin-left: 3vw; */
-    height: 10vh;
-    width: 10vw;
+    align-items: center;
     justify-content: center;
-    align-items: center;
+    gap: .2vw;
 }
 
-#logo {
+.info img{
+    width: 10%;
+}
+
+.heading-navbar{
+    display: flex; 
+    align-items: center;
+    height: 15vh;
+    background-color: rgb(0, 198, 169);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .2vw;
+    background-color: white;
+    margin-left: 2%;
+    height: 15vh;
+
+}
+
+.logo img{
     height: 8vh;
     width: 8vw;
-    object-fit: contain;
-    background-color: white;
+}
+
+.pages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pages ul{
+    list-style-type: none;
+}
+
+.pages a{
+    color: white;
+    text-decoration: none;
+    padding-right: 2vw;
+}
+
+.pages a:hover{
+    color: black;
+}
+
+.end-option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25vw;
+    gap: 20px;
+}
+
+
+.login-and-signup a{
+    color: white;
+    text-decoration: none;
+    margin-left: 2px;
+}
+
+.login-and-signup img{
+    width: 1vw;
+}
+
+.login-and-signup a:hover{
+    color: black;
+}
+
+.mico-hospital-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 65vh;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1); 
+
+}
+/* .mico-hospital-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.mico-hospital{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
 }
