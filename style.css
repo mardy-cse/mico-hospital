@@ -87,6 +87,7 @@
     align-items: center;
     justify-content: space-around;
     height: 65vh;
+    width: 100%;
     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1); 
 
 }
@@ -96,9 +97,395 @@
     justify-content: center;
 } */
 .mico-hospital{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.mico-hospital-image{
+    display: flex;
+    width: 50%;
+    height: 65vh;
+}
+
+.mico-hospital-image img{
+    object-fit: cover;
+}
+.forground-images{
+     height: 100%;
+}
+.dots-images{
+    height: 50%;
+}
+
+.hospital-name{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#hospital{
+    color: rgb(0, 198, 169);
+}
+
+#contact-us-button{
+    width: 10vw;
+    height: 5vh;
+    padding: 1%;
+    border-radius: 5%;
+    color: white;
+    background-color: black;
+}
+
+.book-section{
+    height: 40vh;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 3%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.book-appointment{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+#appointment{
+    color: rgb(0, 198, 169);
+}
+
+.form-section{
+    display: grid;
+    padding-top: 5vh;
+}
+
+.form-section form{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 15px;
+}
+
+.input-field{
+    /* width: 20vw;
+    padding: 2% */
+}
+
+.form-section form input{
+    border: 1px solid rgb(0, 198, 169);
+    border-radius: 5px;
+    width: 22vw;
+    height: 4vh;
+    padding: 2%;
+    color:  rgb(0, 198, 169);
+    
+}
+
+.form-section form input::placeholder{
+    color:rgb(0, 198, 169);
+}
+
+.input-field-title{
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+#submit-now{
+    width: 10vw;
+    height: 5vh;
+    padding: 1%;
+    border-radius: 5%;
+    color: white;
+    background-color: black;
+}
+
+.about-hospital-section{
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border: 1px solid black;
+    justify-content: space-around;
+    height: 65vh;
+    width: 100%;
+
 }
+
+.about-hospital-image{
+    display: flex;
+    width: 50%;
+    height: 65vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.about-hospital-image img{
+    object-fit: cover;
+}
+
+.about-hospital{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+}
+
+#read-more-button{
+    width: 10vw;
+    height: 5vh;
+    padding: 1%;
+    border-radius: 5%;
+    color: white;
+    background-color: black;
+}
+
+.hospital-treatment-section{
+    height: 65vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hospital-treatment{
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 3px;
+}
+
+.hospital-treatment-box{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.box-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2vw;
+
+    width: 100%;
+}
+
+.box{
+    height: 35vh;
+    text-align: start;
+}
+
+.box span{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.box a{
+    color: rgb(0, 198, 169);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.box p{
+    text-align: justify;
+}
+
+.our-doctors-section{
+    width: 100%;
+    height: 65vh;
+    background-color:  rgb(0, 198, 169);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-doctors{
+    margin-top: 10vh;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#our{
+    color: black;
+}
+#doctors{
+    color: white
+}
+
+.image-container{
+    height: 45vh;
+    width: 75%;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-content: center;
+    column-gap: 2vw;
+
+}
+.arrow{
+    background-color: white;
+    width: 3vw;
+    border-radius: 2px;
+    
+}
+.arrow img{
+    width: 2vw;
+    padding: 5px;
+}
+
+.image-box{
+    border: 1px solid red;
+    /* height: 35vh; */
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.doctors-img{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.doctors-img img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+#name {
+    font-weight: bold;
+    font-size: larger;
+}
+
+#position{
+    color: rgb(0, 198, 169);
+    font-weight: bold;
+    font-size: medium;
+}
+
+.doctors-info{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.contact-icons{
+    border: 1px solid rebeccapurple;
+}
+
+.contact-icons ul{
+    list-style-type: none;
+    display: flex;
+}
+.left-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+}
+
+.right-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.left-arrow-border{
+    background-color: white;
+    border-radius: 3px;
+}
+
+.right-arrow-border{
+    background-color: white;
+    border-radius: 3px;
+}
+
+.left-arrow-border a img{
+width: 1vw;
+padding: 5px;
+}
+
+.right-arrow-border a img{
+    width: 1vw;
+    padding: 5px;
+}
+
+.footer{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(33, 33, 33);
+
+}
+
+.footer-top{
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.footer-logo{
+    display: flex;
+    height: 100%;
+    width: 8%;
+    border: 1px solid green;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    background-color: white;
+}
+.input-email{
+    display: flex;
+    height: 80%;
+    margin-left: 3%;
+    align-items: center;
+    background-color: rgb(33, 33, 33);
+}
+
+.input-email input{
+    padding: 10px;
+    width: 70vw;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    border-color: white;
+}
+
+.meta-data{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    column-gap: 2%;
+}
+
+.meta-data-box{
+    height: 30vh;
+    color: white;
+    padding-left: 5px;
+}
+
+.mata-sub-info i {
+    color: white;
+    margin-right: 8px;
+    margin-top: 8px;
+  }
+
+  #logos{
+    margin-top: 10px;
+  }
+
+  #logos i{
+    width: 25px;
+  }
+  
